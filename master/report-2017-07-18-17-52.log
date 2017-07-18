@@ -1,0 +1,354 @@
+2017-07-18 18:09:50,875 main DEBUG Initializing configuration XmlConfiguration[location=jar:file:/Users/xin/workbench/ascrutae/agent-integration-test/workspace/skywalking-autotest.jar!/log4j2.xml]
+2017-07-18 18:09:50,885 main DEBUG Installed script engines
+2017-07-18 18:09:51,197 main DEBUG Oracle Nashorn Version: 1.8.0_152, Language: ECMAScript, Threading: Not Thread Safe, Compile: true, Names: {nashorn, Nashorn, js, JS, JavaScript, javascript, ECMAScript, ecmascript}
+2017-07-18 18:09:51,414 main DEBUG AppleScriptEngine Version: 1.1, Language: AppleScript, Threading: Not Thread Safe, Compile: false, Names: {AppleScriptEngine, AppleScript, OSA}
+2017-07-18 18:09:51,415 main DEBUG PluginManager 'Core' found 112 plugins
+2017-07-18 18:09:51,416 main DEBUG PluginManager 'Level' found 0 plugins
+2017-07-18 18:09:51,420 main DEBUG PluginManager 'Lookup' found 13 plugins
+2017-07-18 18:09:51,421 main DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
+2017-07-18 18:09:51,429 main DEBUG PluginManager 'TypeConverter' found 26 plugins
+2017-07-18 18:09:51,442 main DEBUG PatternLayout$Builder(pattern="[%d{yyyy-MM-dd HH:mm:ss:SSS}] [%p] - %l - %m%n", PatternSelector=null, Configuration(jar:file:/Users/xin/workbench/ascrutae/agent-integration-test/workspace/skywalking-autotest.jar!/log4j2.xml), Replace=null, charset="UTF-8", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", header="null", footer="null")
+2017-07-18 18:09:51,443 main DEBUG PluginManager 'Converter' found 41 plugins
+2017-07-18 18:09:51,452 main DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.ConsoleAppender].
+2017-07-18 18:09:51,460 main DEBUG ConsoleAppender$Builder(target="SYSTEM_OUT", follow="null", direct="null", bufferedIo="null", bufferSize="null", immediateFlush="null", ignoreExceptions="null", PatternLayout([%d{yyyy-MM-dd HH:mm:ss:SSS}] [%p] - %l - %m%n), name="Console", Configuration(jar:file:/Users/xin/workbench/ascrutae/agent-integration-test/workspace/skywalking-autotest.jar!/log4j2.xml), Filter=null)
+2017-07-18 18:09:51,460 main DEBUG Starting OutputStreamManager SYSTEM_OUT.false.false
+2017-07-18 18:09:51,460 main DEBUG Building Plugin[name=appenders, class=org.apache.logging.log4j.core.config.AppendersPlugin].
+2017-07-18 18:09:51,462 main DEBUG createAppenders(={Console})
+2017-07-18 18:09:51,462 main DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+2017-07-18 18:09:51,467 main DEBUG createAppenderRef(ref="Console", level="null", Filter=null)
+2017-07-18 18:09:51,468 main DEBUG Building Plugin[name=root, class=org.apache.logging.log4j.core.config.LoggerConfig$RootLogger].
+2017-07-18 18:09:51,468 main DEBUG createLogger(additivity="null", level="DEBUG", includeLocation="null", ={Console}, ={}, Configuration(jar:file:/Users/xin/workbench/ascrutae/agent-integration-test/workspace/skywalking-autotest.jar!/log4j2.xml), Filter=null)
+2017-07-18 18:09:51,470 main DEBUG Building Plugin[name=loggers, class=org.apache.logging.log4j.core.config.LoggersPlugin].
+2017-07-18 18:09:51,470 main DEBUG createLoggers(={root})
+2017-07-18 18:09:51,471 main DEBUG Configuration XmlConfiguration[location=jar:file:/Users/xin/workbench/ascrutae/agent-integration-test/workspace/skywalking-autotest.jar!/log4j2.xml] initialized
+2017-07-18 18:09:51,471 main DEBUG Starting configuration XmlConfiguration[location=jar:file:/Users/xin/workbench/ascrutae/agent-integration-test/workspace/skywalking-autotest.jar!/log4j2.xml]
+2017-07-18 18:09:51,471 main DEBUG Started configuration XmlConfiguration[location=jar:file:/Users/xin/workbench/ascrutae/agent-integration-test/workspace/skywalking-autotest.jar!/log4j2.xml] OK.
+2017-07-18 18:09:51,472 main DEBUG Shutting down OutputStreamManager SYSTEM_OUT.false.false-1
+2017-07-18 18:09:51,472 main DEBUG Shut down OutputStreamManager SYSTEM_OUT.false.false-1, all resources released: true
+2017-07-18 18:09:51,472 main DEBUG Appender DefaultConsole-1 stopped with status true
+2017-07-18 18:09:51,473 main DEBUG Stopped org.apache.logging.log4j.core.config.DefaultConfiguration@619a5dff OK
+2017-07-18 18:09:51,523 main DEBUG Registering MBean org.apache.logging.log4j2:type=4b67cf4d
+2017-07-18 18:09:51,524 main DEBUG Registering MBean org.apache.logging.log4j2:type=4b67cf4d,component=StatusLogger
+2017-07-18 18:09:51,525 main DEBUG Registering MBean org.apache.logging.log4j2:type=4b67cf4d,component=ContextSelector
+2017-07-18 18:09:51,526 main DEBUG Registering MBean org.apache.logging.log4j2:type=4b67cf4d,component=Loggers,name=
+2017-07-18 18:09:51,527 main DEBUG Registering MBean org.apache.logging.log4j2:type=4b67cf4d,component=Appenders,name=Console
+2017-07-18 18:09:51,529 main DEBUG Reconfiguration complete for context[name=4b67cf4d] at URI jar:file:/Users/xin/workbench/ascrutae/agent-integration-test/workspace/skywalking-autotest.jar!/log4j2.xml (org.apache.logging.log4j.core.LoggerContext@2f9f7dcf) with optional ClassLoader: null
+2017-07-18 18:09:51,529 main DEBUG Shutdown hook enabled. Registering a new one.
+2017-07-18 18:09:51,530 main DEBUG LoggerContext[name=4b67cf4d, org.apache.logging.log4j.core.LoggerContext@2f9f7dcf] started OK.
+[2017-07-18 18:09:51:535] [INFO] - org.skywalking.apm.test.agent.tool.Main.main(Main.java:19) - Begin to validate data.
+[2017-07-18 18:09:51:539] [INFO] - org.skywalking.apm.test.agent.tool.entity.TestCaseDesc$Parser.parse(TestCaseDesc.java:41) - load case desc: caseName[opentracing-case], caseRequestURL[http://localhost:18080/opentracing-case/case/open-tracing], components[[org.skywalking.apm.test.agent.tool.entity.TestCase$Component@34a3d150, org.skywalking.apm.test.agent.tool.entity.TestCase$Component@2a4fb17b]], isValidate[true]
+[2017-07-18 18:09:51:541] [INFO] - org.skywalking.apm.test.agent.tool.Main.main(Main.java:40) - start to assert data of test case[opentracing-case]
+[2017-07-18 18:09:51:668] [INFO] - org.skywalking.apm.test.agent.tool.caseassert.assertor.DataAssert.assertEquals(DataAssert.java:12) - excepted data:
+{
+  "registryItems": {
+    "applications": [
+      {
+        "open-tracing-case": "nq 0"
+      }
+    ],
+    "instances": [
+      {
+        "open-tracing-case": 1
+      }
+    ],
+    "operationNames": [
+      {
+        "open-tracing-case": [
+          "/opentracing-case/case/open-tracing",
+          "OpentracingCase/doGet",
+          "OpentracingCase/testContinuation",
+          "OpentracingCase/testLocalSpan"
+        ]
+      }
+    ]
+  },
+  "segmentItems": [
+    {
+      "applicationCode": "open-tracing-case",
+      "segmentSize": "2",
+      "segments": [
+        {
+          "segmentId": "not null",
+          "spans": [
+            {
+              "operationName": "OpentracingCase/testContinuation",
+              "operationId": "eq 0",
+              "parentSpanId": "2",
+              "spanId": "3",
+              "tags": [
+                {
+                  "key": "name",
+                  "value": "test"
+                }
+              ],
+              "logs": [],
+              "startTime": "nq 0",
+              "endTime": "nq 0",
+              "componentId": "eq 0",
+              "isError": false,
+              "spanType": "Local",
+              "peerId": "eq 0"
+            },
+            {
+              "operationName": "OpentracingCase/testLocalSpan",
+              "operationId": "eq 0",
+              "parentSpanId": "1",
+              "spanId": "2",
+              "tags": [
+                {
+                  "key": "name",
+                  "value": "Test"
+                }
+              ],
+              "logs": [],
+              "startTime": "nq 0",
+              "endTime": "nq 0",
+              "componentId": "eq 0",
+              "componentName": "OpentracingService",
+              "isError": false,
+              "spanType": "Local",
+              "peerId": "eq 0"
+            },
+            {
+              "operationName": "OpentracingCase/doGet",
+              "operationId": "eq 0",
+              "parentSpanId": "1",
+              "spanId": "0",
+              "tags": [],
+              "logs": [],
+              "startTime": "nq 0",
+              "endTime": "nq 0",
+              "componentId": "eq 0",
+              "isError": false,
+              "spanType": "Local",
+              "peerId": "eq 0"
+            },
+            {
+              "operationName": "/opentracing-case/case/open-tracing",
+              "operationId": "eq 0",
+              "parentSpanId": "-1",
+              "spanId": "0",
+              "spanLayer": "Http",
+              "tags": [
+                {
+                  "key": "url",
+                  "value": "http://localhost:18080/opentracing-case/case/open-tracing"
+                },
+                {
+                  "key": "http.method",
+                  "value": "GET"
+                }
+              ],
+              "logs": [],
+              "startTime": "nq 0",
+              "endTime": "nq 0",
+              "componentId": "1",
+              "isError": false,
+              "spanType": "Entry",
+              "peerId": "eq 0"
+            }
+          ],
+          "refs": []
+        },
+        {
+          "segmentId": "not null",
+          "spans": [
+            {
+              "operationName": "OpentracingCase/run",
+              "operationId": "eq 0",
+              "parentSpanId": "-1",
+              "spanId": "0",
+              "tags": [],
+              "logs": [],
+              "startTime": "nq 0",
+              "endTime": "nq 0",
+              "componentId": "eq 0",
+              "isError": false,
+              "spanType": "Local",
+              "peerId": "eq 0"
+            }
+          ],
+          "refs": [
+            {
+              "spanId": "3",
+              "parentSegmentId": "${open-tracing-case[0]}",
+              "networkAddress": "",
+              "entryServiceName": "/opentracing-case/case/open-tracing"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+[2017-07-18 18:09:51:672] [INFO] - org.skywalking.apm.test.agent.tool.caseassert.assertor.DataAssert.assertEquals(DataAssert.java:13) - actual data:
+{
+  "registryItems": {
+    "applications": [
+      {
+        "open-tracing-case": 2
+      }
+    ],
+    "instances": [
+      {
+        "open-tracing-case": 1
+      }
+    ],
+    "operationNames": [
+      {
+        "open-tracing-case": [
+          "/opentracing-case/case/open-tracing",
+          "OpentracingCase/doGet",
+          "Thread/Thread-4",
+          "OpentracingCase/testContinuation",
+          "OpentracingCase/testLocalSpan"
+        ]
+      }
+    ]
+  },
+  "segmentItems": [
+    {
+      "applicationCode": "open-tracing-case",
+      "segmentSize": "2",
+      "segments": [
+        {
+          "segmentId": "S.1500372565468.-1630870285.1.55.1",
+          "spans": [
+            {
+              "operationName": "OpentracingCase/run",
+              "operationId": "0",
+              "parentSpanId": "-1",
+              "spanId": "0",
+              "spanLayer": "Database",
+              "tags": [],
+              "logs": [],
+              "startTime": "1500372565468",
+              "endTime": "1500372566472",
+              "componentId": "0",
+              "componentName": "",
+              "isError": false,
+              "spanType": "Local",
+              "peer": "",
+              "peerId": "0"
+            }
+          ],
+          "refs": [
+            {
+              "spanId": "3",
+              "parentSegmentId": "S.1500372565208.-1630870285.1.27.1",
+              "networkAddress": "",
+              "entryServiceName": ""
+            }
+          ]
+        },
+        {
+          "segmentId": "S.1500372565208.-1630870285.1.27.1",
+          "spans": [
+            {
+              "operationName": "OpentracingCase/testContinuation",
+              "operationId": "0",
+              "parentSpanId": "2",
+              "spanId": "3",
+              "spanLayer": "Database",
+              "tags": [
+                {
+                  "key": "name",
+                  "value": "test"
+                }
+              ],
+              "logs": [],
+              "startTime": "1500372565450",
+              "endTime": "1500372565468",
+              "componentId": "0",
+              "componentName": "",
+              "isError": false,
+              "spanType": "Local",
+              "peer": "",
+              "peerId": "0"
+            },
+            {
+              "operationName": "OpentracingCase/testLocalSpan",
+              "operationId": "0",
+              "parentSpanId": "1",
+              "spanId": "2",
+              "spanLayer": "Database",
+              "tags": [
+                {
+                  "key": "name",
+                  "value": "Test"
+                }
+              ],
+              "logs": [],
+              "startTime": "1500372565450",
+              "endTime": "1500372565468",
+              "componentId": "0",
+              "componentName": "",
+              "isError": false,
+              "spanType": "Local",
+              "peer": "",
+              "peerId": "0"
+            },
+            {
+              "operationName": "OpentracingCase/doGet",
+              "operationId": "0",
+              "parentSpanId": "0",
+              "spanId": "1",
+              "spanLayer": "Database",
+              "tags": [],
+              "logs": [],
+              "startTime": "1500372565444",
+              "endTime": "1500372567469",
+              "componentId": "0",
+              "componentName": "",
+              "isError": false,
+              "spanType": "Local",
+              "peer": "",
+              "peerId": "0"
+            },
+            {
+              "operationName": "/opentracing-case/case/open-tracing",
+              "operationId": "0",
+              "parentSpanId": "-1",
+              "spanId": "0",
+              "spanLayer": "Http",
+              "tags": [
+                {
+                  "key": "url",
+                  "value": "http://localhost:18080/opentracing-case/case/open-tracing"
+                },
+                {
+                  "key": "http.method",
+                  "value": "GET"
+                }
+              ],
+              "logs": [],
+              "startTime": "1500372565213",
+              "endTime": "1500372567478",
+              "componentId": "1",
+              "componentName": "",
+              "isError": false,
+              "spanType": "Entry",
+              "peer": "",
+              "peerId": "0"
+            }
+          ],
+          "refs": []
+        }
+      ]
+    }
+  ]
+}
+[2017-07-18 18:09:51:675] [INFO] - org.skywalking.apm.test.agent.tool.caseassert.assertor.RegistryItemsAssert.assertEquals(RegistryItemsAssert.java:12) - registry applications assert successful.
+[2017-07-18 18:09:51:676] [INFO] - org.skywalking.apm.test.agent.tool.caseassert.assertor.RegistryItemsAssert.assertEquals(RegistryItemsAssert.java:14) - registry instances assert successful.
+[2017-07-18 18:09:51:677] [INFO] - org.skywalking.apm.test.agent.tool.caseassert.assertor.RegistryItemsAssert.assertEquals(RegistryItemsAssert.java:16) - registry operation name assert successful.
+[2017-07-18 18:09:51:678] [ERROR] - org.skywalking.apm.test.agent.tool.Main.main(Main.java:48) - assert failed.
+assert application[open-tracing-case] segment: 
+ expected: 1 
+ actual: not found
+2017-07-18 18:09:54,138 pool-1-thread-1 DEBUG Stopping LoggerContext[name=4b67cf4d, org.apache.logging.log4j.core.LoggerContext@2f9f7dcf]
+2017-07-18 18:09:54,139 pool-1-thread-1 DEBUG Stopping LoggerContext[name=4b67cf4d, org.apache.logging.log4j.core.LoggerContext@2f9f7dcf]...
+2017-07-18 18:09:54,141 pool-1-thread-1 DEBUG Shutting down OutputStreamManager SYSTEM_OUT.false.false
+2017-07-18 18:09:54,141 pool-1-thread-1 DEBUG Shut down OutputStreamManager SYSTEM_OUT.false.false, all resources released: true
+2017-07-18 18:09:54,141 pool-1-thread-1 DEBUG Appender Console stopped with status true
+2017-07-18 18:09:54,141 pool-1-thread-1 DEBUG Stopped XmlConfiguration[location=jar:file:/Users/xin/workbench/ascrutae/agent-integration-test/workspace/skywalking-autotest.jar!/log4j2.xml] OK
+2017-07-18 18:09:54,142 pool-1-thread-1 DEBUG Stopped LoggerContext[name=4b67cf4d, org.apache.logging.log4j.core.LoggerContext@2f9f7dcf] with status true
