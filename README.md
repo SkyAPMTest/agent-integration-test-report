@@ -1,6 +1,6 @@
 # Test Report - 2017-12-18 17:50
 
-[![TestStatus Badge](https://img.shields.io/badge/status-100%-green.svg)]()
+[![TestStatus Badge](https://img.shields.io/badge/status-100-green.svg)]()
 
 - Branch Name : **[master](https://github.com/apache/incubator-skywalking/tree/master)**
 - Commit Id : **[07ad767be8dc209c0f8eb1ace8f5a54088c3021a](https://github.com/apache/incubator-skywalking/commit/07ad767be8dc209c0f8eb1ace8f5a54088c3021a)**
