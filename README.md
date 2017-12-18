@@ -9,7 +9,7 @@
 
 | Framework | Status | Cases|
 |:-----|:-----:|:-----:|
-|jedis|[![TestStatus Badge](https://img.shields.io/badge/status-2--/--2-brightgreen.svg)]()| [click me](#jedis) |
+|jedis|[![TestStatus Badge](https://img.shields.io/badge/status-2/2-brightgreen.svg)]()| [click me](#jedis) |
 
 ## jedis
 
