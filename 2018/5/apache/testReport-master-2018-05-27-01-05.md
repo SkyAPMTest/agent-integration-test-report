@@ -1,18 +1,10 @@
-<<<<<<< HEAD
-# Test Report - 2018-05-27 02:27
-
-- tests  : **347 passed**. **100 failed**
-- branch name : **[feautre/change-component](https://github.com/apache/incubator-skywalking/tree/feautre/change-component)**
-- commit id : **[ece7e04b6037453ada39f7c2c618f7f5c48dcda4](https://github.com/apache/incubator-skywalking/commit/ece7e04b6037453ada39f7c2c618f7f5c48dcda4)**
-=======
 # Test Report - 2018-05-27 01:05
 
 - tests  : **407 passed**. **40 failed**
 - branch name : **[master](https://github.com/apache/incubator-skywalking/tree/master)**
 - commit id : **[a7ecb9aa9c3a9d97003810edde3a67a4d616616c](https://github.com/apache/incubator-skywalking/commit/a7ecb9aa9c3a9d97003810edde3a67a4d616616c)**
->>>>>>> 94f8cb0975ed2e8b55d45353be1f802bc6039274
 - cases branch: **[master](https://github.com/SkywalkingTest/skywalking-autotest-scenarios/tree/master)**
-- cases commit id: **[2965fc1ebccf7f6b7645702177b1cf045b07695e](https://github.com/SkywalkingTest/skywalking-autotest-scenarios/commit/2965fc1ebccf7f6b7645702177b1cf045b07695e)**
+- cases commit id: **[dab4853fa5707371d9b9934c3b3c912bfe771464](https://github.com/SkywalkingTest/skywalking-autotest-scenarios/commit/dab4853fa5707371d9b9934c3b3c912bfe771464)**
 
 ## Cases List
 
@@ -22,36 +14,20 @@
 |Strut2_H2| **44 passed. 5 failed**| [click me](#strut2_h2) |
 |Spring-RestTemplate_Annotation_RestAnnotation| **70 passed. 9 failed**| [click me](#spring-resttemplate_annotation_restannotation) |
 |Hystrix| **20 passed. 0 failed**| [click me](#hystrix) |
-<<<<<<< HEAD
-|Mysql| **0 passed. 48 failed**| [click me](#mysql) |
-|Feign| **8 passed. 0 failed**| [click me](#feign) |
-|RocketMQ| **0 passed. 7 failed**| [click me](#rocketmq) |
-|Servicecomb| **5 passed. 0 failed**| [click me](#servicecomb) |
-|PostgreSQL| **49 passed. 6 failed**| [click me](#postgresql) |
-|JettyClient_JettyServer| **60 passed. 10 failed**| [click me](#jettyclient_jettyserver) |
-=======
 |Mysql| **47 passed. 1 failed**| [click me](#mysql) |
 |Feign| **7 passed. 1 failed**| [click me](#feign) |
 |RocketMQ| **6 passed. 1 failed**| [click me](#rocketmq) |
 |Servicecomb| **5 passed. 0 failed**| [click me](#servicecomb) |
 |PostgreSQL| **49 passed. 6 failed**| [click me](#postgresql) |
 |JettyClient_JettyServer| **59 passed. 11 failed**| [click me](#jettyclient_jettyserver) |
->>>>>>> 94f8cb0975ed2e8b55d45353be1f802bc6039274
 |Httpasyncclient| **7 passed. 0 failed**| [click me](#httpasyncclient) |
 |GRPC| **17 passed. 0 failed**| [click me](#grpc) |
 |Httpclient| **14 passed. 0 failed**| [click me](#httpclient) |
 |OKHttp3| **16 passed. 1 failed**| [click me](#okhttp3) |
-<<<<<<< HEAD
-|Motan| **8 passed. 0 failed**| [click me](#motan) |
-|MongoDB| **0 passed. 7 failed**| [click me](#mongodb) |
-|Kafka| **0 passed. 4 failed**| [click me](#kafka) |
-|Dubbo| **5 passed. 1 failed**| [click me](#dubbo) |
-=======
 |Motan| **7 passed. 1 failed**| [click me](#motan) |
 |MongoDB| **5 passed. 2 failed**| [click me](#mongodb) |
 |Kafka| **4 passed. 0 failed**| [click me](#kafka) |
 |Dubbo| **6 passed. 0 failed**| [click me](#dubbo) |
->>>>>>> 94f8cb0975ed2e8b55d45353be1f802bc6039274
 |jdkCrossThread| **1 passed. 0 failed**| [click me](#jdkcrossthread) |
 |Dubbox| **1 passed. 0 failed**| [click me](#dubbox) |
 
@@ -96,13 +72,13 @@
 | H2-1.3.149_Struts2-2.3.1.2  | |:heavy_check_mark:|
 | H2-1.3.154_Struts2-2.5.12  | :heavy_check_mark:||
 | H2-1.3.153_Struts2-2.5.13  | :heavy_check_mark:||
-| H2-1.3.161_Struts2-2.5  | |:heavy_check_mark:|
+| H2-1.3.161_Struts2-2.5  | :heavy_check_mark:||
 | H2-1.3.160_Struts2-2.5.1  | :heavy_check_mark:||
 | H2-1.3.148_Struts2-2.3.1.2  | |:heavy_check_mark:|
 | H2-1.3.159_Struts2-2.5.2  | :heavy_check_mark:||
 | H2-1.3.151_Struts2-2.5.14.1  | |:heavy_check_mark:|
 | H2-1.3.155_Struts2-2.5.10.1  | :heavy_check_mark:||
-| H2-1.3.157_Struts2-2.5.8  | |:heavy_check_mark:|
+| H2-1.3.157_Struts2-2.5.8  | :heavy_check_mark:||
 | H2-1.3.152_Struts2-2.5.14  | :heavy_check_mark:||
 | H2-1.3.150_Struts2-2.3.1.2  | |:heavy_check_mark:|
 | H2-1.3.156_Struts2-2.5.10  | :heavy_check_mark:||
@@ -198,7 +174,7 @@
 | Spring-RestTemplate-4.0.2_Annotation-4.0.2_RestAnnotation-5.0.0  | :heavy_check_mark:||
 | Spring-RestTemplate-4.2.7_Annotation-4.2.7_RestAnnotation-4.3.0  | :heavy_check_mark:||
 | Spring-RestTemplate-3.1.0_Annotation-3.1.0_RestAnnotation-4.3.0  | |:heavy_check_mark:|
-| Spring-RestTemplate-4.3.12_Annotation-4.3.12_RestAnnotation-4.3.0  | |:heavy_check_mark:|
+| Spring-RestTemplate-4.3.12_Annotation-4.3.12_RestAnnotation-4.3.0  | :heavy_check_mark:||
 | Spring-RestTemplate-3.2.14_Annotation-3.2.14_RestAnnotation-4.3.7  | :heavy_check_mark:||
 | Spring-RestTemplate-3.2.8_Annotation-3.2.8_RestAnnotation-4.3.1  | :heavy_check_mark:||
 | Spring-RestTemplate-3.1.7_Annotation-3.0.7_RestAnnotation-4.3.0  | |:heavy_check_mark:|
@@ -262,56 +238,6 @@
 ### 
 |  Version     | Passed | Failed|
 |:------------- |:-------:|:-----:|
-<<<<<<< HEAD
-| 5.1.10  | |:heavy_check_mark:|
-| 5.1.35  | |:heavy_check_mark:|
-| 5.1.32  | |:heavy_check_mark:|
-| 5.1.21  | |:heavy_check_mark:|
-| 5.1.44  | |:heavy_check_mark:|
-| 5.1.43  | |:heavy_check_mark:|
-| 5.1.34  | |:heavy_check_mark:|
-| 5.1.23  | |:heavy_check_mark:|
-| 6.0.3  | |:heavy_check_mark:|
-| 5.1.42  | |:heavy_check_mark:|
-| 5.1.29  | |:heavy_check_mark:|
-| 5.1.25  | |:heavy_check_mark:|
-| 5.1.16  | |:heavy_check_mark:|
-| 5.1.8  | |:heavy_check_mark:|
-| 5.1.9  | |:heavy_check_mark:|
-| 5.1.27  | |:heavy_check_mark:|
-| 6.0.6  | |:heavy_check_mark:|
-| 5.1.39  | |:heavy_check_mark:|
-| 5.1.11  | |:heavy_check_mark:|
-| 5.1.36  | |:heavy_check_mark:|
-| 5.1.40  | |:heavy_check_mark:|
-| 5.1.5  | |:heavy_check_mark:|
-| 6.0.4  | |:heavy_check_mark:|
-| 5.1.19  | |:heavy_check_mark:|
-| 5.1.18  | |:heavy_check_mark:|
-| 5.1.3  | |:heavy_check_mark:|
-| 5.1.2  | |:heavy_check_mark:|
-| 5.1.45  | |:heavy_check_mark:|
-| 5.1.17  | |:heavy_check_mark:|
-| 5.1.22  | |:heavy_check_mark:|
-| 5.1.24  | |:heavy_check_mark:|
-| 5.1.14  | |:heavy_check_mark:|
-| 5.1.37  | |:heavy_check_mark:|
-| 5.1.20  | |:heavy_check_mark:|
-| 6.0.5  | |:heavy_check_mark:|
-| 5.1.38  | |:heavy_check_mark:|
-| 5.1.28  | |:heavy_check_mark:|
-| 5.1.13  | |:heavy_check_mark:|
-| 5.1.12  | |:heavy_check_mark:|
-| 5.1.6  | |:heavy_check_mark:|
-| 5.1.26  | |:heavy_check_mark:|
-| 5.1.30  | |:heavy_check_mark:|
-| 5.1.4  | |:heavy_check_mark:|
-| 5.1.31  | |:heavy_check_mark:|
-| 5.1.41  | |:heavy_check_mark:|
-| 6.0.2  | |:heavy_check_mark:|
-| 5.1.33  | |:heavy_check_mark:|
-| 5.1.15  | |:heavy_check_mark:|
-=======
 | 5.1.10  | :heavy_check_mark:||
 | 5.1.35  | :heavy_check_mark:||
 | 5.1.32  | :heavy_check_mark:||
@@ -360,7 +286,6 @@
 | 6.0.2  | |:heavy_check_mark:|
 | 5.1.33  | :heavy_check_mark:||
 | 5.1.15  | :heavy_check_mark:||
->>>>>>> 94f8cb0975ed2e8b55d45353be1f802bc6039274
 
 ## Feign
 
@@ -374,29 +299,23 @@
 | 9.1.0  | :heavy_check_mark:||
 | 9.5.1  | :heavy_check_mark:||
 | 9.3.0  | :heavy_check_mark:||
-| 9.0.0  | :heavy_check_mark:||
+| 9.0.0  | |:heavy_check_mark:|
 
 ## RocketMQ
 
 ### 
 |  Version     | Passed | Failed|
 |:------------- |:-------:|:-----:|
-<<<<<<< HEAD
-| 4.0.0-incubating  | |:heavy_check_mark:|
-| 4.1.0-incubating  | |:heavy_check_mark:|
-| 4.2.0  | |:heavy_check_mark:|
-=======
 | 4.0.0-incubating  | :heavy_check_mark:||
 | 4.1.0-incubating  | :heavy_check_mark:||
 | 4.2.0  | :heavy_check_mark:||
->>>>>>> 94f8cb0975ed2e8b55d45353be1f802bc6039274
 
 |  Version     | Passed | Failed|
 |:------------- |:-------:|:-----:|
 | 3.6.2.Final  | :heavy_check_mark:||
 | 3.4.9  | |:heavy_check_mark:|
-| 3.2.6  | |:heavy_check_mark:|
-| 3.5.9  | |:heavy_check_mark:|
+| 3.2.6  | :heavy_check_mark:||
+| 3.5.9  | :heavy_check_mark:||
 
 ## Servicecomb
 
@@ -647,29 +566,23 @@
 ### 
 |  Version     | Passed | Failed|
 |:------------- |:-------:|:-----:|
-| 3.4.1  | |:heavy_check_mark:|
+| 3.4.1  | :heavy_check_mark:||
 | 3.6.0  | |:heavy_check_mark:|
-<<<<<<< HEAD
-| 3.4.0  | |:heavy_check_mark:|
-| 3.4.2  | |:heavy_check_mark:|
-| 3.5.0  | |:heavy_check_mark:|
-=======
 | 3.4.0  | :heavy_check_mark:||
 | 3.4.2  | :heavy_check_mark:||
 | 3.5.0  | :heavy_check_mark:||
->>>>>>> 94f8cb0975ed2e8b55d45353be1f802bc6039274
 | 3.6.1  | |:heavy_check_mark:|
-| 3.4.3  | |:heavy_check_mark:|
+| 3.4.3  | :heavy_check_mark:||
 
 ## Kafka
 
 ### 
 |  Version     | Passed | Failed|
 |:------------- |:-------:|:-----:|
-| 0.11.0.0  | |:heavy_check_mark:|
-| 1.0.0  | |:heavy_check_mark:|
-| 0.11.0.1  | |:heavy_check_mark:|
-| 0.11.0.2  | |:heavy_check_mark:|
+| 0.11.0.0  | :heavy_check_mark:||
+| 1.0.0  | :heavy_check_mark:||
+| 0.11.0.1  | :heavy_check_mark:||
+| 0.11.0.2  | :heavy_check_mark:||
 
 ## Dubbo
 
@@ -680,7 +593,7 @@
 | 2.5.8  | :heavy_check_mark:||
 | 2.5.6  | :heavy_check_mark:||
 | 2.5.5  | :heavy_check_mark:||
-| 2.5.4  | |:heavy_check_mark:|
+| 2.5.4  | :heavy_check_mark:||
 | 2.5.7  | :heavy_check_mark:||
 
 ## jdkCrossThread
