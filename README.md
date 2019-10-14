@@ -1,3 +1,6 @@
+# This report ends at 2019-10-14. Repo is closed
+All VMs have been retrieved, and reused in Apache SkyWalking PR process. All plugin tests are required in every PR.
+
 # Test Report - 2019-10-14 08:11
 
 - tests  : **605 passed**. **164 failed**
